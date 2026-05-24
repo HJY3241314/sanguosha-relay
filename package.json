@@ -1,0 +1,15 @@
+{
+  "name": "sanguosha-relay",
+  "version": "1.0.0",
+  "description": "WebSocket relay server for Sanguosha game",
+  "main": "ws-relay-server.js",
+  "scripts": {
+    "start": "node ws-relay-server.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
